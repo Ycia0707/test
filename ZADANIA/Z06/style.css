@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Główne pudełko */
+.container {
+    background: #ffffffee;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 350px;
+    width: 90%;
+}
+
+/* Nagłówek */
+.container h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Pola tekstowe */
+.container input[type="number"] {
+    width: 80%;
+    padding: 10px 15px;
+    margin: 8px 0 20px;
+    border: 2px solid #4facfe;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.container input[type="number"]:focus {
+    border-color: #00c3ff;
+    outline: none;
+    box-shadow: 0 0 8px #4facfe;
+}
+
+/* Przycisk */
+.container button {
+    background: #4facfe;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container button:hover {
+    background: #00c3ff;
+    transform: translateY(-2px);
+}
+
+/* Wynik */
+#wynik {
+    margin-top: 25px;
+    font-weight: bold;
+    color: #222;
+    font-size: 18px;
+}

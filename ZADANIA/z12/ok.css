@@ -1,0 +1,10 @@
+// let min = 2
+let max = 10
+let x = Math.floor(Math.random()*(max-min+1)+min);
+console.log(x);
+
+function liczba_losowa(min, max) {
+return Math.floor(Math.random() * (max - min+1) + min);
+}
+
+console.log (liczba_losowa(1,49));

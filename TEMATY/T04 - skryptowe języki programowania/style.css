@@ -1,0 +1,79 @@
+/* Ogólne style dla całego dokumentu */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffefe; /* AliceBlue - bardzo jasny niebieski */
+    color: #030303;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Stylizacja nagłówka */
+header {
+    background-color: #b5aae6; /* Lavender - jasny fiolet */
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border-left: 5px solid #1e054c; /* MediumPurple - średni fiolet */
+    box-shadow: 0 4px 8px rgb(14, 6, 34);
+}
+
+header h1 {
+    color: #0b0322; /* BlueViolet - fioletowy */
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 3px rgb(71, 24, 156);
+}
+
+header h2 {
+    color: #0c091c; /* SlateBlue - łupkowy niebieski */
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed #3d1783; /* MediumPurple */
+    font-size: 1.8em;
+}
+
+header h4 {
+    color: #0b0225; /* CadetBlue - niebiesko-zielony */
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Podświetlenie list i ich elementów */
+ul {
+    background-color: #c1b7ea; /* LavenderBlush - bladoróżowy */
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 1px dotted #774777; /* Thistle - jasny fiolet */
+}
+
+li {
+    margin-bottom: 8px;
+    color: #483d8b; /* DarkSlateBlue - ciemny łupkowy niebieski */
+    font-weight: 500;
+}
+
+li:hover {
+    color: #9932cc; /* DarkOrchid - ciemna orchidea */
+    background-color: #68456e; /* Very light purple */
+    padding-left: 5px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+/* Dodatkowe podkreślenie dla sekcji z definicjami */
+h2 + h4 {
+    margin-top: 20px;
+    padding-left: 15px;
+    border-left: 3px solid #ba55d3; /* MediumOrchid - średnia orchidea */
+}
+
+/* Stylizacja dla konkretnych sekcji, np. języków */
+h2 {
+    font-size: 1.9em;
+    color: #8470ff; /* LightSlateBlue - jasny łupkowy niebieski */
+    margin-top: 30px;
+}
+
